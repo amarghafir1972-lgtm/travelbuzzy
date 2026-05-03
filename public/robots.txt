@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+
+# Disallow low-value pages from crawl budget
+Disallow: /cookie-policy
+Disallow: /terms-of-use
+
+# Sitemap location
+Sitemap: https://travelbuzzy.com/sitemap.xml

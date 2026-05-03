@@ -1,0 +1,770 @@
+{
+  "destinations": {
+    "rome": {
+      "name": "Rome",
+      "tagline": "The Colosseum, the Vatican, and the world's best pasta",
+      "intro": "Rome is the most historically dense city on earth — a 2,800-year palimpsest of civilisations where you can walk from a classical temple to a Baroque piazza to a Renaissance palazzo without crossing a road. The challenge is not finding things to see but managing the extraordinary volume of them. The Colosseum, the Vatican, the Pantheon, the Trevi Fountain, the Borghese Gallery — each would anchor an entire day in a lesser city. In Rome, they're just the beginning.",
+      "quickFacts": {
+        "bestTime": "April – May, September – October",
+        "visaRequired": "Schengen (visa-free 90 days for most)",
+        "language": "Italian (English spoken in tourist areas)",
+        "currency": "Euro (EUR)",
+        "timezone": "CET (UTC+1, UTC+2 summer)"
+      },
+      "budgetOverride": {
+        "budgetDaily": 75,
+        "midDaily": 205,
+        "luxuryDaily": 530
+      }
+    },
+    "ibiza": {
+      "name": "Ibiza",
+      "tagline": "Club culture, hidden coves, and extraordinary sunsets",
+      "intro": "Ibiza is two islands in one — the world's most legendary electronic music destination, home to clubs that invented the form (Pacha, DC-10, Amnesia, Hi Ibiza), and a quieter island of pine-covered hills, whitewashed villages, hidden coves, and the UNESCO-listed Dalt Vila old town. Both versions coexist on the same 572km² without particular friction. The key is understanding which version you want — and ideally combining both, because the beach coves of the northwest and the all-night energy of the clubs are each extraordinary in their own right.",
+      "quickFacts": {
+        "bestTime": "May – June (beach + quiet), July – September (full season)",
+        "visaRequired": "Schengen (visa-free 90 days for most)",
+        "language": "Spanish, Catalan (Ibizan dialect) — English widely spoken",
+        "currency": "Euro (EUR)",
+        "timezone": "CET (UTC+1, UTC+2 summer)"
+      },
+      "budgetOverride": {
+        "budgetDaily": 108,
+        "midDaily": 280,
+        "luxuryDaily": 810
+      }
+    },
+    "maldives": {
+      "name": "Maldives",
+      "tagline": "Overwater bungalows and the clearest water on earth",
+      "intro": "The Maldives is the most successful single-image destination in the world: overwater bungalow, turquoise lagoon, sunrise. The reality is more varied — and more accessible — than most people think. Yes, luxury resorts charge $800+ per night. But there's also a thriving local island scene with guesthouses under $100, and mid-range resorts have proliferated since the government opened ownership to international operators.",
+      "quickFacts": {
+        "bestTime": "November – April (dry season)",
+        "visaRequired": "Visa on Arrival (30 days, free)",
+        "language": "Dhivehi, English widely spoken",
+        "currency": "Maldivian Rufiyaa (MVR) / USD accepted everywhere",
+        "timezone": "MVT (UTC+5)"
+      },
+      "budgetOverride": {
+        "budgetDaily": 135,
+        "midDaily": 325,
+        "luxuryDaily": 800
+      }
+    },
+    "phuket": {
+      "name": "Phuket",
+      "tagline": "Limestone cliffs, turquoise bays, and world-class island hopping",
+      "intro": "Phuket is Thailand's largest island and its most visited beach destination. The west coast beaches — Patong, Kamala, Surin, Bang Tao, Kata — run one after another along 30km of Andaman Sea coastline, each with a different character. The island's real attraction is as a base for the wider Andaman region: Phang Nga Bay with its James Bond limestone karsts, the Phi Phi Islands, the Similan Islands for diving, and Ko Racha for snorkelling are all within day-trip or overnight range.",
+      "quickFacts": {
+        "bestTime": "November – April (dry season)",
+        "visaRequired": "Visa-free 30 days (most nationalities) or e-Visa",
+        "language": "Thai (English spoken in tourist areas)",
+        "currency": "Thai Baht (THB)",
+        "timezone": "ICT (UTC+7)"
+      },
+      "budgetOverride": {
+        "budgetDaily": 41,
+        "midDaily": 145,
+        "luxuryDaily": 530
+      }
+    },
+    "dubrovnik": {
+      "name": "Dubrovnik",
+      "tagline": "The Pearl of the Adriatic — medieval walls and the bluest sea in Europe",
+      "intro": "Dubrovnik is the most perfectly preserved medieval walled city in the world — a fortress-city of limestone streets and Gothic, Renaissance, and Baroque architecture contained within walls that are 6 metres thick and 2km in circumference. The Game of Thrones production team used it as King's Landing because it was already more dramatic than any set they could have built. The Adriatic Sea outside the walls is the clearest and most intensely blue in Europe. The challenge: it is also one of the most overcrowded tourist destinations in the world in July and August.",
+      "quickFacts": {
+        "bestTime": "May – June, September – October",
+        "visaRequired": "Schengen (visa-free 90 days for most) — Croatia joined Schengen January 2023",
+        "language": "Croatian (English widely spoken)",
+        "currency": "Euro (EUR) — adopted 2023",
+        "timezone": "CET (UTC+1, UTC+2 summer)"
+      },
+      "budgetOverride": {
+        "budgetDaily": 87,
+        "midDaily": 232,
+        "luxuryDaily": 605
+      }
+    },
+    "lisbon": {
+      "name": "Lisbon",
+      "tagline": "Trams, Fado music, and Atlantic light unlike anywhere else",
+      "intro": "Lisbon has been Europe's most interesting capital city for the better part of a decade — and unlike most cities that peak in hype before disappointing, it keeps delivering. The city sits on seven hills above the Tagus estuary, bathed in an Atlantic light that painters have celebrated for centuries. The old neighbourhoods — Alfama, Mouraria, Mouraria — are UNESCO-worthy without the designation, laced with azulejo-tiled churches and Fado bars. The food is extraordinary and underpriced by any European comparison. And despite a surge of tourism, the soul of the place remains stubbornly, charmingly Portuguese.",
+      "quickFacts": {
+        "bestTime": "April – June, September – October",
+        "visaRequired": "Schengen (visa-free 90 days for most)",
+        "language": "Portuguese (English widely spoken)",
+        "currency": "Euro (EUR)",
+        "timezone": "WET (UTC+0, UTC+1 summer)"
+      },
+      "budgetOverride": {
+        "budgetDaily": 56,
+        "midDaily": 162,
+        "luxuryDaily": 398
+      }
+    },
+    "miami": {
+      "name": "Miami",
+      "tagline": "Art Deco, Latin energy, and the most glamorous beach in the USA",
+      "intro": "Miami is the most Latin city in the United States — a cultural crossroads of Cuban, Venezuelan, Colombian, Caribbean, and Brazilian influences that has produced one of the country's most distinctive urban identities. South Beach's Art Deco Historic District is the world's largest collection of 1930s architecture, Wynwood is a world-class outdoor street art gallery, and Little Havana is a living Cuban neighbourhood that survived the exile community's half-century of homesickness. The beaches are excellent, the nightlife is extraordinary, and the food — particularly the Cuban and Colombian scenes — is genuinely world-class.",
+      "quickFacts": {
+        "bestTime": "November – April (cool and dry)",
+        "visaRequired": "US entry requirements apply (ESTA for most nationalities)",
+        "language": "English, Spanish",
+        "currency": "US Dollar (USD)",
+        "timezone": "EST (UTC−5), EDT summer"
+      },
+      "budgetOverride": {
+        "budgetDaily": 104,
+        "midDaily": 283,
+        "luxuryDaily": 740
+      }
+    },
+    "hawaii": {
+      "name": "Hawaii",
+      "tagline": "Active volcanoes, world-class surf, and the most remote island chain on earth",
+      "intro": "Hawaii sits in the middle of the Pacific, further from any continent than any other island group on earth — and this isolation has produced ecosystems, cultures, and landscapes found nowhere else. Choosing which island to visit is the first and most important decision: Maui has the best beaches and whale watching; the Big Island has active lava flows and the world's most accessible astronomical observatories; O'ahu has Honolulu, Diamond Head, and the North Shore's legendary surf. Kauai is the most dramatic landscape. Each is a destination in itself.",
+      "quickFacts": {
+        "bestTime": "April – May, September – November (shoulder season)",
+        "visaRequired": "US entry requirements apply (ESTA for most; Green Card / US citizens no visa)",
+        "language": "English, Hawaiian",
+        "currency": "US Dollar (USD)",
+        "timezone": "HST (UTC−10)"
+      },
+      "budgetOverride": {
+        "budgetDaily": 115,
+        "midDaily": 335,
+        "luxuryDaily": 860
+      }
+    },
+    "bali": {
+      "name": "Bali",
+      "tagline": "Rice terraces, temples, and beach clubs",
+      "intro": "Bali has been the world's most searched travel destination for years running — and for good reason. The Indonesian island packs volcanic mountains, ancient rice terraces, surf beaches, world-class restaurants, and some of the most creative hotels on the planet into a single compact destination. The challenge isn't finding things to do in Bali; it's choosing which version of Bali you want.",
+      "quickFacts": {
+        "bestTime": "April – June, September – October",
+        "visaRequired": "Visa on Arrival (30 days, most nationalities)",
+        "language": "Balinese, Indonesian",
+        "currency": "Indonesian Rupiah (IDR)",
+        "timezone": "WITA (UTC+8)"
+      },
+      "budgetOverride": {
+        "budgetDaily": 49,
+        "midDaily": 160,
+        "luxuryDaily": 340
+      }
+    },
+    "kyoto": {
+      "name": "Kyoto",
+      "tagline": "Bamboo groves, geisha districts, and a thousand temples",
+      "intro": "Kyoto was Japan's imperial capital for over a thousand years, and it shows. While Tokyo pulsed forward into the 21st century, Kyoto preserved — 1,600 Buddhist temples, 400 Shinto shrines, 17 UNESCO World Heritage Sites, and enough kaiseki restaurants and machiya townhouses to fill a lifetime of visits. It is the Japan most people imagine before they arrive: bamboo groves, torii gates, geisha glimpsed on a lantern-lit street, and cherry blossom falling through temple gardens. The reality is even better.",
+      "quickFacts": {
+        "bestTime": "March – May (cherry blossom), October – November (autumn)",
+        "visaRequired": "Visa-free (90 days, most Western nationalities)",
+        "language": "Japanese (some English in tourist areas)",
+        "currency": "Japanese Yen (JPY)",
+        "timezone": "JST (UTC+9)"
+      },
+      "budgetOverride": {
+        "budgetDaily": 59,
+        "midDaily": 182,
+        "luxuryDaily": 780
+      }
+    },
+    "reykjavik": {
+      "name": "Reykjavik",
+      "tagline": "Northern lights, geysers, and the midnight sun at the edge of the Arctic",
+      "intro": "Iceland is one of the most extraordinary landscapes on earth — a country formed by active volcanism and covered in glaciers, lava fields, geysers, hot springs, and waterfalls. Reykjavik, the world's most northerly capital, is a compact, design-forward city of 130,000 that serves as the base for exploring the island. The question is not whether Iceland is worth visiting — it is — but choosing the right season. The midnight sun of summer (June–August) and the Northern Lights of winter (September–March) are equally compelling, and completely different experiences.",
+      "quickFacts": {
+        "bestTime": "June – August (midnight sun), September – March (Northern Lights)",
+        "visaRequired": "Schengen (visa-free 90 days for most)",
+        "language": "Icelandic (English universally spoken)",
+        "currency": "Icelandic Króna (ISK)",
+        "timezone": "GMT (UTC+0, no summer time)"
+      },
+      "budgetOverride": {
+        "budgetDaily": 112,
+        "midDaily": 280,
+        "luxuryDaily": 580
+      }
+    },
+    "marrakech": {
+      "name": "Marrakech",
+      "tagline": "Souks, riads, and the Atlas Mountains one hour away",
+      "intro": "Marrakech is one of the world's great sensory experiences — a 11th-century Berber city where the medieval Medina is still very much the beating heart of daily life. The labyrinthine souks sell everything from hand-hammered copper lanterns to argan oil to live chickens. Jemaa el-Fna square transforms from a market by day into one of the world's great outdoor performance stages by night. And on the city's edge, the Atlas Mountains rise to over 4,000 metres — visible from rooftop terraces and accessible for day trips or trekking.",
+      "quickFacts": {
+        "bestTime": "March – May, September – November",
+        "visaRequired": "Visa-free (90 days, UK/US/EU/AU)",
+        "language": "Darija Arabic, Tamazight, French",
+        "currency": "Moroccan Dirham (MAD)",
+        "timezone": "WET (UTC+0, UTC+1 summer)"
+      },
+      "budgetOverride": {
+        "budgetDaily": 47,
+        "midDaily": 145,
+        "luxuryDaily": 520
+      }
+    },
+    "barcelona": {
+      "name": "Barcelona",
+      "tagline": "Gaudí, tapas, and the Mediterranean at its liveliest",
+      "intro": "Barcelona is the most architecturally interesting city in Europe — possibly the world. The work of Antoni Gaudí alone would justify a visit: the Sagrada Família is the most visited building in Spain and still unfinished after 140 years. Beyond the architecture, the city has some of Europe's best beaches, a food scene running from $3 tapas to three-star Michelin, and the peculiar energy of a city that considers itself a nation (Catalonia) within a nation. It runs on its own clock — dinner starts at 9pm at the earliest.",
+      "quickFacts": {
+        "bestTime": "May – June, September – October",
+        "visaRequired": "Schengen (visa-free 90 days for most)",
+        "language": "Catalan, Spanish (English widely spoken)",
+        "currency": "Euro (EUR)",
+        "timezone": "CET (UTC+1, UTC+2 summer)"
+      },
+      "budgetOverride": {
+        "budgetDaily": 87,
+        "midDaily": 207,
+        "luxuryDaily": 495
+      }
+    },
+    "istanbul": {
+      "name": "Istanbul",
+      "tagline": "Where Europe meets Asia — mosques, hammams, and the Bosphorus",
+      "intro": "Istanbul is the only city in the world that spans two continents — the Bosphorus strait separates European Istanbul (Sultanahmet, Beyoğlu) from Asian Istanbul (Kadıköy, Üsküdar), with a ferry crossing of 15 minutes between them. The city was the capital of three of history's greatest empires: Roman (Byzantium), Byzantine, and Ottoman. The Hagia Sophia alone would justify the trip — 1,500 years old, converted mosque-cathedral-museum-mosque again, and still breathtaking. Istanbul is also exceptional value by European standards, with extraordinary food, hospitality, and culture.",
+      "quickFacts": {
+        "bestTime": "April – May, September – October",
+        "visaRequired": "e-Visa required (UK, US, EU, AU — approx $35–50, apply online)",
+        "language": "Turkish (English in tourist areas)",
+        "currency": "Turkish Lira (TRY)",
+        "timezone": "TRT (UTC+3)"
+      },
+      "budgetOverride": {
+        "budgetDaily": 44,
+        "midDaily": 140,
+        "luxuryDaily": 450
+      }
+    },
+    "mexico-city": {
+      "name": "Mexico City",
+      "tagline": "Aztec ruins, world-class tacos, and the Americas' most dynamic food city",
+      "intro": "Mexico City is the Americas' most exciting food destination and one of its great cultural capitals — a megacity of 22 million people that contains Aztec ruins beneath its colonial centre, the world's largest urban museum (the Anthropology Museum), a taco culture of extraordinary depth and seriousness, and a neighbourhood-by-neighbourhood creative energy that has attracted a wave of international artists, chefs, and travellers. The city sits at 2,240 metres altitude — jet-lagged visitors feel the thin air the first day, then acclimatise and never want to leave.",
+      "quickFacts": {
+        "bestTime": "November – April (dry season)",
+        "visaRequired": "Visa-free (180 days, US, Canada, EU, UK, AU)",
+        "language": "Spanish (some English in tourist areas)",
+        "currency": "Mexican Peso (MXN)",
+        "timezone": "CST (UTC−6), CDT summer"
+      },
+      "budgetOverride": {
+        "budgetDaily": 41,
+        "midDaily": 130,
+        "luxuryDaily": 315
+      }
+    },
+    "hanoi": {
+      "name": "Hanoi",
+      "tagline": "Lantern-lit old quarter, pho at dawn, and the gateway to Ha Long Bay",
+      "intro": "Hanoi is Vietnam's capital — a city of lakes, French colonial boulevards, and a 36-street Old Quarter that maps directly onto a medieval trading city of guilds and workshops. The city operates at a rhythm that rewards slow exploration: pho for breakfast at 6am from a street stall with four plastic stools, coffee in a centuries-old Vietnamese café, the Old Quarter's architecture absorbing the chaos of motorbikes below. It is also the launch point for the Vietnamese north's greatest natural spectacle — Ha Long Bay, three hours east, where 3,000 limestone karst islands rise from an emerald sea.",
+      "quickFacts": {
+        "bestTime": "October – April (cooler and drier)",
+        "visaRequired": "e-Visa (most nationalities, $25, 90 days) or visa-free eligible",
+        "language": "Vietnamese (some English in tourist areas)",
+        "currency": "Vietnamese Dong (VND)",
+        "timezone": "ICT (UTC+7)"
+      },
+      "budgetOverride": {
+        "budgetDaily": 27,
+        "midDaily": 98,
+        "luxuryDaily": 285
+      }
+    },
+    "dubai": {
+      "name": "Dubai",
+      "tagline": "Desert skyline, world records, and tax-free luxury",
+      "intro": "Dubai is the most ambitious city-building project in human history — a desert fishing village that transformed into a global metropolis of 3.5 million people in under 70 years. It holds more world records than any other city: tallest building (Burj Khalifa at 828m), largest mall, busiest airport, longest automated metro. The result is a city of jaw-dropping spectacle, ultra-luxury hotels, and a complex cultural layering of Emirati tradition, South Asian labour, and Western expat life. It's worth understanding before you arrive.",
+      "quickFacts": {
+        "bestTime": "November – March (cool season)",
+        "visaRequired": "Visa on Arrival or e-Visa (60–90 days, most nationalities)",
+        "language": "Arabic (English almost universally spoken)",
+        "currency": "UAE Dirham (AED)",
+        "timezone": "GST (UTC+4)"
+      },
+      "budgetOverride": {
+        "budgetDaily": 98,
+        "midDaily": 245,
+        "luxuryDaily": 800
+      }
+    },
+    "santorini": {
+      "name": "Santorini",
+      "tagline": "Caldera views, whitewashed villages, and Aegean sunsets",
+      "intro": "Santorini is one of the most photographed places on earth — and it lives up to the pictures. The crescent-shaped caldera, created by one of history's largest volcanic eruptions, is genuinely jaw-dropping from any vantage point. The catch: it's expensive, popular, and best understood as a place for a short, well-planned stay rather than a backpacker's beach holiday.",
+      "quickFacts": {
+        "bestTime": "May – June, September – October",
+        "visaRequired": "Schengen (90-day visa-free for most)",
+        "language": "Greek",
+        "currency": "Euro (EUR)",
+        "timezone": "EET (UTC+3 summer)"
+      },
+      "budgetOverride": {
+        "budgetDaily": 127,
+        "midDaily": 265,
+        "luxuryDaily": 570
+      }
+    },
+    "rio-de-janeiro": {
+      "name": "Rio de Janeiro",
+      "tagline": "Carnival, Cristo Redentor, and the world's most dramatic city beaches",
+      "intro": "Rio de Janeiro is one of the world's most dramatically beautiful cities — Sugarloaf Mountain rising from Guanabara Bay, Cristo Redentor on Corcovado Mountain overlooking everything, and Copacabana and Ipanema beaches stretching in perfect arcs against the Atlantic. It is also a city of extraordinary contrasts: beachfront luxury alongside some of Latin America's most densely populated favelas, a sophisticated Zona Sul cultural life alongside the raw exuberance of Carnaval. Understanding that contrast, rather than avoiding it, is the key to a meaningful visit.",
+      "quickFacts": {
+        "bestTime": "May – October (cooler and less rainy)",
+        "visaRequired": "Visa-free (90 days, US, UK, EU, AU from 2024)",
+        "language": "Portuguese",
+        "currency": "Brazilian Real (BRL)",
+        "timezone": "BRT (UTC−3)"
+      },
+      "budgetOverride": {
+        "budgetDaily": 47,
+        "midDaily": 155,
+        "luxuryDaily": 500
+      }
+    },
+    "new-york": {
+      "name": "New York City",
+      "tagline": "Manhattan, Brooklyn, and the city that never sleeps",
+      "intro": "New York City is the most intense urban experience on earth — a 13,000km² metropolitan area of 20 million people that operates at a pace no other city quite matches. Manhattan alone contains more restaurants than most countries have fine-dining establishments, more museums than most European capitals, and a skyline that remains the defining image of modernity. The challenge of visiting is not finding things to do but making meaningful choices about which New York to inhabit — food city, art city, music city, architecture city, or neighbourhood-by-neighbourhood social portrait.",
+      "quickFacts": {
+        "bestTime": "April – May, September – October",
+        "visaRequired": "ESTA (visa waiver, most nationalities) or B visa",
+        "language": "English",
+        "currency": "US Dollar (USD)",
+        "timezone": "EST (UTC−5), EDT summer"
+      },
+      "budgetOverride": {
+        "budgetDaily": 150,
+        "midDaily": 315,
+        "luxuryDaily": 780
+      }
+    },
+    "singapore": {
+      "name": "Singapore",
+      "tagline": "Garden city, world-class food, and Asia's most efficient hub",
+      "intro": "Singapore is the most efficiently functioning city on earth — and a far more interesting one than its reputation for orderliness suggests. The city-state packs more culinary diversity into its 720km² than most countries manage at continental scale, with a hawker centre food culture recognised by UNESCO as intangible cultural heritage. The Marina Bay Sands skyline, Gardens by the Bay's supertrees, and the botanical gardens make it architecturally distinctive. It's also the best transit hub in Asia — combining a Singapore stop with a regional itinerary adds little time and extraordinary value.",
+      "quickFacts": {
+        "bestTime": "February – April, July – September (relatively drier)",
+        "visaRequired": "Visa-free (90 days, most nationalities)",
+        "language": "English, Mandarin, Malay, Tamil",
+        "currency": "Singapore Dollar (SGD)",
+        "timezone": "SGT (UTC+8)"
+      },
+      "budgetOverride": {
+        "budgetDaily": 55,
+        "midDaily": 175,
+        "luxuryDaily": 580
+      }
+    },
+    "queenstown": {
+      "name": "Queenstown",
+      "tagline": "The adventure capital of the world — fjords, skiing, and bungee jumping",
+      "intro": "Queenstown sits on the shores of Lake Wakatipu beneath the jagged Remarkables mountain range — a setting so dramatically beautiful that it has become the world's adventure tourism capital entirely on merit. Bungee jumping was invented here (AJ Hackett, 1988). The world's greatest skydive (over the Remarkables) operates year-round. Milford Sound — universally described as the 'eighth wonder of the world' — is four hours away by car or 45 minutes by scenic flight. Queenstown is also the gateway to the Otago wine region (Pinot Noir of extraordinary quality) and the Fiordland National Park.",
+      "quickFacts": {
+        "bestTime": "December – February (summer), June – September (ski season)",
+        "visaRequired": "NZeTA required (UK/US/EU/AU — NZD $23, apply online)",
+        "language": "English, Māori",
+        "currency": "New Zealand Dollar (NZD)",
+        "timezone": "NZST (UTC+12), NZDT (UTC+13 summer)"
+      },
+      "budgetOverride": {
+        "budgetDaily": 90,
+        "midDaily": 255,
+        "luxuryDaily": 695
+      }
+    },
+    "prague": {
+      "name": "Prague",
+      "tagline": "Medieval bridges, Baroque spires, and Europe's finest castle district",
+      "intro": "Prague is the best-preserved medieval city in Europe — it largely escaped the bombing of WWII, which means the Gothic, Baroque, and Art Nouveau architecture stands as it was built across 10 centuries. The Staroměstské náměstí (Old Town Square), the Vltava River, and the Hradčany castle district form one of the world's most photogenic urban landscapes. The city is also excellent value by Western European standards — good Czech beer at $1.50/pint, traditional svíčková for $8, and mid-range hotels for $80–120/night.",
+      "quickFacts": {
+        "bestTime": "May – June, September – October",
+        "visaRequired": "Schengen (visa-free 90 days for most)",
+        "language": "Czech (English widely spoken)",
+        "currency": "Czech Koruna (CZK)",
+        "timezone": "CET (UTC+1, UTC+2 summer)"
+      },
+      "budgetOverride": {
+        "budgetDaily": 49,
+        "midDaily": 145,
+        "luxuryDaily": 385
+      }
+    },
+    "tokyo": {
+      "name": "Tokyo",
+      "tagline": "Neon skylines, ancient shrines, and the world's best food city",
+      "intro": "Tokyo is the most complex city in the world to visit, and also one of the most rewarding. It has more Michelin stars than any other city on earth, a train system so reliable it's measured in seconds, and enough neighbourhoods — each with a distinct identity — to fill a month of exploration. The good news: it's also one of the safest, cleanest, and most foreigner-friendly cities on the planet once you get past the language barrier.",
+      "quickFacts": {
+        "bestTime": "March – May (cherry blossom), October – November",
+        "visaRequired": "Visa-free (90 days, most Western nationalities)",
+        "language": "Japanese",
+        "currency": "Japanese Yen (JPY)",
+        "timezone": "JST (UTC+9)"
+      },
+      "budgetOverride": {
+        "budgetDaily": 64,
+        "midDaily": 168,
+        "luxuryDaily": 459
+      }
+    },
+    "paris": {
+      "name": "Paris",
+      "tagline": "Art, gastronomy, and the art of doing nothing particularly well",
+      "intro": "Paris is the most visited city in the world. It's also one of the most misunderstood — the version most tourists experience (Eiffel Tower queue, tourist-trap café near the Louvre, overpriced hotel in the 1st arrondissement) is a pale shadow of what the city actually is. The real Paris is a city of neighbourhoods, each with its own cafés, markets, and rhythms, and the best version of a Paris trip is one that treats the postcard sights as context rather than the whole story.",
+      "quickFacts": {
+        "bestTime": "April – June, September – October",
+        "visaRequired": "Schengen (visa-free 90 days for most nationalities)",
+        "language": "French (English widely spoken in tourist areas)",
+        "currency": "Euro (EUR)",
+        "timezone": "CET (UTC+1, UTC+2 summer)"
+      },
+      "budgetOverride": {
+        "budgetDaily": 128,
+        "midDaily": 260,
+        "luxuryDaily": 505
+      }
+    },
+    "amsterdam": {
+      "name": "Amsterdam",
+      "tagline": "Canal houses, world-class museums, and cycling culture",
+      "intro": "Amsterdam is one of the world's great small cities — compact enough to explore entirely on foot or bicycle over a long weekend, yet dense with world-class museums, architectural beauty, and a liberal cultural scene that shaped the modern world. The canal ring is a UNESCO World Heritage Site, the Rijksmuseum holds the greatest collection of Dutch Golden Age painting, and the Anne Frank House is among the most important WWII sites in Europe. The city has changed dramatically in the 2020s as it actively discourages mass tourism — which has made it considerably better for the visitors who come anyway.",
+      "quickFacts": {
+        "bestTime": "April – May (tulips), June – August (long days)",
+        "visaRequired": "Schengen (visa-free 90 days for most)",
+        "language": "Dutch (English almost universally spoken)",
+        "currency": "Euro (EUR)",
+        "timezone": "CET (UTC+1, UTC+2 summer)"
+      },
+      "budgetOverride": {
+        "budgetDaily": 80,
+        "midDaily": 227,
+        "luxuryDaily": 495
+      }
+    },
+    "cape-town": {
+      "name": "Cape Town",
+      "tagline": "Table Mountain, winelands, and two oceans",
+      "intro": "Cape Town is one of the most beautiful cities on earth — a point almost every visitor agrees on within hours of arrival. The flat-topped Table Mountain rising 1,086 metres above the city, the two oceans meeting at Cape Point, the vineyards of Stellenbosch 40 minutes inland, and the penguins at Boulders Beach create a backdrop that no amount of tourism-brochure photography quite prepares you for. The city also has complexity and contrast that every thoughtful visitor encounters — wealth and inequality exist in closer proximity here than almost anywhere.",
+      "quickFacts": {
+        "bestTime": "November – March (Southern Hemisphere summer)",
+        "visaRequired": "Visa-free (90 days, UK/US/EU/AU)",
+        "language": "Afrikaans, English, Xhosa",
+        "currency": "South African Rand (ZAR)",
+        "timezone": "SAST (UTC+2)"
+      },
+      "budgetOverride": {
+        "budgetDaily": 43,
+        "midDaily": 142,
+        "luxuryDaily": 465
+      }
+    },
+    "bora-bora": {
+      "name": "Bora Bora",
+      "tagline": "The most beautiful lagoon on earth — and overwater bungalows done right",
+      "intro": "Bora Bora may be the single most photographed island in the world — the emerald peak of Mount Otemanu rising above a perfectly circular lagoon of every shade of blue and green, surrounded by a string of motu (coral islets). The reality matches the postcard. The island is small enough to circumnavigate by bicycle in three hours, its underwater world is extraordinary (with the world's calmest and clearest snorkelling conditions), and the overwater bungalow concept was essentially invented here. It is expensive — extravagantly so — but there are ways to experience it without the resort price tag.",
+      "quickFacts": {
+        "bestTime": "May – October (dry season)",
+        "visaRequired": "Visa-free (90 days, most Western nationalities) via French Polynesia",
+        "language": "French, Tahitian (some English at resorts)",
+        "currency": "CFP Franc (XPF) — credit cards widely accepted",
+        "timezone": "TAHT (UTC−10)"
+      },
+      "budgetOverride": {
+        "budgetDaily": 160,
+        "midDaily": 520,
+        "luxuryDaily": 1510
+      }
+    },
+    "bangkok": {
+      "name": "Bangkok",
+      "tagline": "Street food, golden temples, and electrifying nightlife",
+      "intro": "Bangkok is one of the most visited cities in the world — and one of the most misunderstood. It's not just a transit hub or a gateway to the islands: the Thai capital is a world-class city in its own right, with the finest street food scene in Southeast Asia, a rooftop bar for every taste, ancient royal temples, and a nocturnal energy that doesn't quit until well past dawn. Get past the tourist-trap areas around Khao San Road and you'll find a city of extraordinary depth.",
+      "quickFacts": {
+        "bestTime": "November – February (cool season)",
+        "visaRequired": "Visa-free 30 days (most nationalities) or e-Visa",
+        "language": "Thai (English spoken in tourist areas)",
+        "currency": "Thai Baht (THB)",
+        "timezone": "ICT (UTC+7)"
+      },
+      "budgetOverride": {
+        "budgetDaily": 31,
+        "midDaily": 123,
+        "luxuryDaily": 325
+      }
+    },
+    "amalfi-coast": {
+      "name": "Amalfi Coast",
+      "tagline": "Cliffside villages, limoncello, and the Mediterranean at its most dramatic",
+      "intro": "The Amalfi Coast is 50 kilometres of vertical Mediterranean drama — 13 villages perched on cliffs above a cobalt sea, connected by a single switchback road that was carved into the rock face in the 1800s. It is one of Italy's most photographed and most expensive destinations, and the logistics of visiting require more thought than most Italian trips. But the reward — morning light on Positano's pastel houses, a boat to the Emerald Grotto, limoncello from a lemon grove in Ravello — is genuinely among the finest coastal experiences in the world.",
+      "quickFacts": {
+        "bestTime": "May – June, September – October",
+        "visaRequired": "Schengen (visa-free 90 days for most)",
+        "language": "Italian (English in tourist areas)",
+        "currency": "Euro (EUR)",
+        "timezone": "CET (UTC+1, UTC+2 summer)"
+      },
+      "budgetOverride": {
+        "budgetDaily": 135,
+        "midDaily": 330,
+        "luxuryDaily": 1000
+      }
+    }
+  },
+  "tips": [
+    {
+      "title": "Get travel insurance every time",
+      "body": "Medical evacuation from Southeast Asia or the US can cost $50,000+. Travel insurance for most trips costs under $50.",
+      "category": "Safety"
+    },
+    {
+      "title": "Bring a universal adapter",
+      "body": "One good universal adapter covers every destination. Don't buy per-country adapters.",
+      "category": "Packing"
+    },
+    {
+      "title": "Validate your ticket every time",
+      "body": "In many European cities, an unvalidated ticket is treated the same as no ticket. Always stamp/tap before boarding.",
+      "category": "Transport"
+    },
+    {
+      "title": "Book apartments for longer stays",
+      "body": "For trips over 5 nights, serviced apartments or Airbnb usually beat hotels on price and comfort.",
+      "category": "Accommodation"
+    },
+    {
+      "title": "Travel shoulder season for best value",
+      "body": "One month before or after peak season gives you good weather, fewer crowds, and prices 20–40% lower.",
+      "category": "Timing"
+    },
+    {
+      "title": "Check local school holiday dates",
+      "body": "Domestic tourists spike prices just as much as international ones. Research local school breaks before booking.",
+      "category": "Timing"
+    },
+    {
+      "title": "Use ride-hailing apps over taxis",
+      "body": "Grab (SE Asia), Uber, Bolt, and Lyft have fixed prices and receipts. No haggling, no surprises.",
+      "category": "Transport"
+    },
+    {
+      "title": "Fly mid-week for cheaper fares",
+      "body": "Tuesday and Wednesday flights are consistently cheaper than weekend departures on most routes.",
+      "category": "Flights"
+    },
+    {
+      "title": "Visit markets for cheap authentic food",
+      "body": "Local food markets are the best value meal in almost every destination on earth.",
+      "category": "Food & Drink"
+    },
+    {
+      "title": "Try the set lunch menu",
+      "body": "Many restaurants offer a fixed-price lunch menu that's 30–50% cheaper than dinner for the same food.",
+      "category": "Food & Drink"
+    },
+    {
+      "title": "Always pay in local currency",
+      "body": "When a card machine asks 'pay in your home currency?', always say no. The exchange rate will be terrible.",
+      "category": "Money"
+    },
+    {
+      "title": "Book 6–8 weeks out for best prices",
+      "body": "For most international routes, the sweet spot is 6–8 weeks before departure. Booking too early or too late both cost more.",
+      "category": "Flights"
+    },
+    {
+      "title": "Roll clothes, don't fold",
+      "body": "Rolling clothes saves space and reduces wrinkles. Fill shoes with socks to use dead space.",
+      "category": "Packing"
+    },
+    {
+      "title": "Download maps offline before you arrive",
+      "body": "Google Maps and Maps.me let you download city maps for offline use — essential if you're on a foreign SIM.",
+      "category": "Transport"
+    },
+    {
+      "title": "Use Google Flights' price calendar",
+      "body": "Switch to the calendar view to see the cheapest days to fly in an entire month at a glance.",
+      "category": "Flights"
+    },
+    {
+      "title": "Check hotel websites directly",
+      "body": "Hotels often have lower rates or added perks on their own website vs OTAs. Always compare before booking.",
+      "category": "Accommodation"
+    },
+    {
+      "title": "Pack a day bag inside your main bag",
+      "body": "A lightweight daypack folds flat and saves you renting or buying bags at your destination.",
+      "category": "Packing"
+    },
+    {
+      "title": "Use packing cubes",
+      "body": "Packing cubes compress clothes and keep your bag organised. Worth the small investment.",
+      "category": "Packing"
+    },
+    {
+      "title": "Use a fee-free travel card",
+      "body": "Cards like Wise, Revolut, or Chase (UK) charge no foreign transaction fees and use real exchange rates.",
+      "category": "Money"
+    },
+    {
+      "title": "Eat where locals eat",
+      "body": "Walk two streets away from the main tourist square. Prices drop and quality goes up.",
+      "category": "Food & Drink"
+    },
+    {
+      "title": "Set fare alerts",
+      "body": "Use Google Flights or Skyscanner alerts — prices fluctuate daily and a good deal can appear any time.",
+      "category": "Flights"
+    },
+    {
+      "title": "Try nearby airports",
+      "body": "Flying into a secondary airport can save hundreds. Always compare the nearest 2–3 airports before booking.",
+      "category": "Flights"
+    },
+    {
+      "title": "Store copies of key documents",
+      "body": "Email yourself scans of your passport, insurance, and booking confirmations. Keep originals and copies separate.",
+      "category": "Safety"
+    },
+    {
+      "title": "Keep a small amount of local cash",
+      "body": "Even in cashless destinations, small vendors, taxis, and tips often require cash.",
+      "category": "Money"
+    },
+    {
+      "title": "Download your airline app",
+      "body": "Most airlines let you check in, access boarding passes, and get gate change alerts via their app.",
+      "category": "Tech & Apps"
+    },
+    {
+      "title": "Withdraw cash at bank ATMs only",
+      "body": "Avoid standalone ATMs in tourist areas — they charge high fees and offer poor rates.",
+      "category": "Money"
+    },
+    {
+      "title": "Book refundable rates then watch prices",
+      "body": "Reserve a refundable room now, then check prices again closer to the date. Rebook if it drops.",
+      "category": "Accommodation"
+    },
+    {
+      "title": "Stay slightly outside the centre",
+      "body": "One or two metro stops from the tourist core can halve your accommodation costs with minimal inconvenience.",
+      "category": "Accommodation"
+    },
+    {
+      "title": "Share your itinerary with someone at home",
+      "body": "Send a copy of your travel plans — hotels, flights, dates — to a trusted person before you depart.",
+      "category": "Safety"
+    },
+    {
+      "title": "Get a local SIM or eSIM on arrival",
+      "body": "Airalo and Holafly sell eSIMs that work in 100+ countries. Activate before you land for instant data.",
+      "category": "Tech & Apps"
+    }
+  ],
+  "deals": [
+    {
+      "id": "recFEQFPPmclqy8a0",
+      "title": "London → Santorini Non-Stop",
+      "destination": "Santorini",
+      "dealType": "flight",
+      "badge": "Price Drop",
+      "badgeColor": "bg-emerald-600 text-white",
+      "description": "Non-stop summer flights with British Airways. Lowest fare of the year — multiple dates through August.",
+      "priceUsd": 189,
+      "originalPriceUsd": 340,
+      "imageUrl": "/images/santorini.jpg",
+      "reviewScore": 4.6,
+      "reviewCount": 0,
+      "ctaText": "See Flights",
+      "bookUrl": "#",
+      "validUntil": "6 May 2026"
+    },
+    {
+      "id": "reciLrUUlxmyf8C22",
+      "title": "Hôtel des Grands Boulevards",
+      "destination": "Paris",
+      "dealType": "hotel",
+      "badgeColor": "bg-primary text-white",
+      "description": "A boutique hotel in the 2nd arrondissement. Rooftop bar, garden courtyard, and one of Paris's best brasseries downstairs.",
+      "priceUsd": 189,
+      "originalPriceUsd": 255,
+      "imageUrl": "/images/paris.jpg",
+      "reviewScore": 4.7,
+      "reviewCount": 1120,
+      "ctaText": "Book Now",
+      "bookUrl": "#",
+      "validUntil": "20 May 2026"
+    },
+    {
+      "id": "recnCxosVB2CzkkP3",
+      "title": "Overwater Villa at Anantara Veli",
+      "destination": "Maldives",
+      "dealType": "hotel",
+      "badge": "Editor's Pick",
+      "badgeColor": "bg-primary text-white",
+      "description": "All-inclusive overwater bungalow with direct lagoon access. Snorkelling, sunset cruises, and private deck included.",
+      "priceUsd": 389,
+      "originalPriceUsd": 680,
+      "imageUrl": "/images/maldives.jpg",
+      "reviewScore": 4.9,
+      "reviewCount": 312,
+      "ctaText": "Check Availability",
+      "bookUrl": "#",
+      "validUntil": "31 May 2026"
+    },
+    {
+      "id": "recsPCQwm1VCyzwLz",
+      "title": "Komaneka at Bisma",
+      "destination": "Bali",
+      "dealType": "hotel",
+      "badge": "Flash Sale",
+      "badgeColor": "bg-amber-500 text-white",
+      "description": "Jungle hideaway in Ubud overlooking the Campuhan Ridge. Rice terrace views, world-class spa, and a treetop infinity pool.",
+      "priceUsd": 145,
+      "originalPriceUsd": 195,
+      "imageUrl": "/images/bali.jpg",
+      "reviewScore": 4.9,
+      "reviewCount": 908,
+      "ctaText": "Check Availability",
+      "bookUrl": "#",
+      "validUntil": "15 May 2026"
+    },
+    {
+      "id": "rectLMfbavamKL7sp",
+      "title": "Canaves Oia Boutique Hotel",
+      "destination": "Santorini, Greece",
+      "dealType": "hotel",
+      "badge": "Best Value",
+      "badgeColor": "bg-accent text-white",
+      "description": "Iconic caldera views, private plunge pool, and breakfast included. Book 21 days ahead for this rate.",
+      "priceUsd": 299,
+      "originalPriceUsd": 540,
+      "imageUrl": "/images/santorini.jpg",
+      "reviewScore": 4.8,
+      "reviewCount": 208,
+      "ctaText": "Compare Prices",
+      "bookUrl": "#",
+      "validUntil": "31 May 2026"
+    },
+    {
+      "id": "recvyH4c0cOIOgqgg",
+      "title": "Andaz Tokyo Toranomon Hills",
+      "destination": "Tokyo, Japan",
+      "dealType": "hotel",
+      "badge": "Top Pick",
+      "badgeColor": "bg-secondary text-white",
+      "description": "Sleek rooftop pool with Shinjuku skyline views. Walking distance to Shibuya and Harajuku — perfect city base.",
+      "priceUsd": 198,
+      "originalPriceUsd": 320,
+      "imageUrl": "/images/tokyo.jpg",
+      "reviewScore": 4.7,
+      "reviewCount": 441,
+      "ctaText": "See Today's Deals",
+      "bookUrl": "#",
+      "validUntil": "31 May 2026"
+    }
+  ],
+  "syncedAt": "2026-05-03T02:29:07.430Z"
+}

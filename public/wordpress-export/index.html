@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TravelBuzzy — Find Better Travel Deals Before Everyone Else</title>
+  <meta name="description" content="Curated hotel picks, flight deals, and destination guides — updated daily by people who actually travel. Discover the best travel deals on TravelBuzzy." />
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="TravelBuzzy — Find Better Travel Deals Before Everyone Else" />
+  <meta property="og:description" content="Curated hotel picks, flight deals, and destination guides — updated daily." />
+  <meta property="og:url" content="https://travelbuzzy.com" />
+  <meta property="og:site_name" content="TravelBuzzy" />
+  <!-- Favicon -->
+  <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link href="https://api.fontshare.com/v2/css?f[]=satoshi@700,800,900&display=swap" rel="stylesheet" />
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="styles.css" />
+  <!-- Schema.org WebSite markup -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "TravelBuzzy",
+    "url": "https://travelbuzzy.com",
+    "description": "Curated travel deals, destination guides, and honest hotel comparisons.",
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": "https://travelbuzzy.com/search?q={search_term_string}",
+      "query-input": "required name=search_term_string"
+    }
+  }
+  </script>
+</head>
+<body>
+
+<!-- ═══════════════════════════════════════════════════════════
+     SECTION: Header — Elementor HTML Widget or Theme Header
+     Paste into Theme Builder > Header template in Elementor
+     ═══════════════════════════════════════════════════════════ -->
+<header class="tb-header" role="banner">
+  <div class="tb-container tb-header__inner">
+    <a href="/" class="tb-logo" aria-label="TravelBuzzy Home">
+      <div class="tb-logo__icon" aria-hidden="true">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#0F4C81" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M5 17H3a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11a2 2 0 0 1 2 2v3m3 9l-3-3m3 3-3 3m3-3H9"/>
+        </svg>
+      </div>
+      TravelBuzzy
+    </a>
+
+    <nav class="tb-nav" aria-label="Main navigation">
+      <a href="#destinations">Destinations</a>
+      <a href="#hotels">Hotels</a>
+      <a href="#deals">Deals</a>
+      <a href="#tips">Tips</a>
+      <div class="tb-nav__actions">
+        <a href="#disclosure" class="tb-disclosure-link">*Affiliate Disclosure</a>
+        <a href="#deals" class="tb-btn tb-btn--primary">See Today's Deals</a>
+      </div>
+    </nav>
+
+    <button class="tb-mobile-toggle" aria-label="Toggle mobile menu" aria-expanded="false" aria-controls="mobile-menu">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+        <line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/>
+      </svg>
+    </button>
+  </div>
+
+  <div class="tb-mobile-menu" id="mobile-menu" role="navigation" aria-label="Mobile navigation">
+    <nav>
+      <a href="#destinations">Destinations</a>
+      <a href="#hotels">Hotels</a>
+      <a href="#deals">Deals</a>
+      <a href="#tips">Tips</a>
+      <a href="#deals" class="tb-btn tb-btn--primary" style="margin-top:0.5rem;">See Today's Deals</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <!-- ═══════════════════════════════════════════════════════════
+       SECTION: Hero — Elementor Full-Width Section with Background Image
+       Replace the <img> src with your Elementor background image setting.
+       ═══════════════════════════════════════════════════════════ -->
+  <section class="tb-hero" aria-labelledby="hero-heading">
+    <div class="tb-hero__bg">
+      <!-- Replace src with your WordPress media URL or Elementor background -->
+      <img src="images/bali.jpg" alt="Scenic travel destination - Bali rice terraces at sunset" loading="eager" fetchpriority="high" />
+      <div class="tb-hero__overlay" aria-hidden="true"></div>
+    </div>
+    <div class="tb-container" style="position:relative;z-index:1;">
+      <div class="tb-hero__content">
+        <span class="tb-hero__badge">Updated Daily</span>
+        <!-- One H1 per page — do not duplicate in Elementor -->
+        <h1 id="hero-heading">Find Better Travel Deals Before Everyone Else.</h1>
+        <p class="tb-hero__sub">
+          Curated hotel picks, flight deals, and destination guides — updated daily by people who actually travel.
+        </p>
+        <div class="tb-hero__ctas">
+          <a href="#deals" class="tb-btn tb-btn--primary">See Today's Deals</a>
+          <a href="#destinations" class="tb-btn tb-btn--ghost-white">Browse Destinations</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════════════════════
+       SECTION: Categories — Elementor 4-Column Section
+       Each .tb-cat-card becomes an Elementor column with icon widget + text
+       ═══════════════════════════════════════════════════════════ -->
+  <section id="categories" class="tb-section tb-categories" aria-label="Browse by category">
+    <div class="tb-container">
+      <div class="tb-section-heading">
+        <h2>Browse by Category</h2>
+        <p>Everything you need to plan a better trip — all in one place.</p>
+      </div>
+      <div class="tb-categories__grid">
+        <a href="#destinations" class="tb-cat-card">
+          <div class="tb-cat-card__icon" aria-hidden="true">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#0F4C81" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12S4 16 4 10a8 8 0 0 1 16 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          </div>
+          <div>
+            <h3>Destinations</h3>
+            <p>Handpicked destination guides from travelers who've been there.</p>
+          </div>
+        </a>
+        <a href="#hotels" class="tb-cat-card">
+          <div class="tb-cat-card__icon" aria-hidden="true">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#0F4C81" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+          </div>
+          <div>
+            <h3>Hotels</h3>
+            <p>Honest hotel reviews and best-value picks across all budgets.</p>
+          </div>
+        </a>
+        <a href="#deals" class="tb-cat-card">
+          <div class="tb-cat-card__icon" aria-hidden="true">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#0F4C81" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"/><line x1="7" y1="7" x2="7.01" y2="7"/></svg>
+          </div>
+          <div>
+            <h3>Deals</h3>
+            <p>Today's best flight and hotel deals, curated before they sell out.</p>
+          </div>
+        </a>
+        <a href="#tips" class="tb-cat-card">
+          <div class="tb-cat-card__icon" aria-hidden="true">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#0F4C81" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="2" x2="12" y2="6"/><line x1="12" y1="18" x2="12" y2="22"/><path d="M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83"/></svg>
+          </div>
+          <div>
+            <h3>Travel Tips</h3>
+            <p>Practical advice to help you travel smarter and spend less.</p>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════════════════════
+       SECTION: Featured Deals — Elementor 3-Column Section
+       Each .tb-deal-card is an Elementor column.
+       INSERT YOUR AFFILIATE LINKS on each .tb-btn--primary anchor.
+       ═══════════════════════════════════════════════════════════ -->
+  <section id="deals" class="tb-section tb-deals" aria-labelledby="deals-heading">
+    <div class="tb-container">
+      <div class="tb-section-top">
+        <div class="tb-section-heading" style="margin-bottom:0;">
+          <h2 id="deals-heading">Today's Featured Deals</h2>
+          <p>Hand-selected offers updated daily — prices won't last.</p>
+        </div>
+        <a href="/deals/" class="tb-view-all">View all deals</a>
+      </div>
+      <div class="tb-deals__grid">
+
+        <!-- Deal Card 1: Editor's Pick -->
+        <!-- [AFFILIATE BLOCK: Replace href with your affiliate tracking URL] -->
+        <article class="tb-deal-card" itemscope itemtype="https://schema.org/Hotel">
+          <div class="tb-deal-card__img">
+            <img src="images/maldives.jpg" alt="Overwater villa at Anantara Veli Maldives Resort" loading="lazy" itemprop="image" />
+            <span class="tb-badge tb-badge--editor">Editor's Pick</span>
+          </div>
+          <div class="tb-deal-card__body">
+            <p class="tb-deal-card__dest">Maldives</p>
+            <h3 class="tb-deal-card__name" itemprop="name">Overwater Villa at Anantara Veli</h3>
+            <p class="tb-deal-card__desc">All-inclusive overwater bungalow with direct lagoon access. Snorkeling, sunset cruises, and private deck included.</p>
+            <p class="tb-deal-card__rating">★★★★★ 4.9 <span style="color:var(--tb-muted)">(312 reviews)</span></p>
+            <div class="tb-deal-card__pricing">
+              <span class="tb-price-original">$680</span>
+              <span class="tb-price-deal" itemprop="priceRange">$389</span>
+              <span class="tb-price-unit">/night</span>
+            </div>
+            <!-- [AFFILIATE LINK: Replace # with your booking affiliate URL] -->
+            <a href="#" class="tb-btn tb-btn--primary" rel="noopener sponsored" target="_blank">Check Availability</a>
+          </div>
+        </article>
+
+        <!-- Deal Card 2: Best Value -->
+        <!-- [AFFILIATE BLOCK: Replace href with your affiliate tracking URL] -->
+        <article class="tb-deal-card" itemscope itemtype="https://schema.org/Hotel">
+          <div class="tb-deal-card__img">
+            <img src="images/santorini.jpg" alt="Canaves Oia Boutique Hotel with caldera views in Santorini" loading="lazy" itemprop="image" />
+            <span class="tb-badge tb-badge--value">Best Value</span>
+          </div>
+          <div class="tb-deal-card__body">
+            <p class="tb-deal-card__dest">Santorini, Greece</p>
+            <h3 class="tb-deal-card__name" itemprop="name">Canaves Oia Boutique Hotel</h3>
+            <p class="tb-deal-card__desc">Iconic caldera views, private plunge pool, and breakfast included. Book 21 days ahead for this rate.</p>
+            <p class="tb-deal-card__rating">★★★★★ 4.8 <span style="color:var(--tb-muted)">(208 reviews)</span></p>
+            <div class="tb-deal-card__pricing">
+              <span class="tb-price-original">$540</span>
+              <span class="tb-price-deal" itemprop="priceRange">$299</span>
+              <span class="tb-price-unit">/night</span>
+            </div>
+            <!-- [AFFILIATE LINK: Replace # with your booking affiliate URL] -->
+            <a href="#" class="tb-btn tb-btn--primary" rel="noopener sponsored" target="_blank">Compare Prices</a>
+          </div>
+        </article>
+
+        <!-- Deal Card 3: Top Pick -->
+        <!-- [AFFILIATE BLOCK: Replace href with your affiliate tracking URL] -->
+        <article class="tb-deal-card" itemscope itemtype="https://schema.org/Hotel">
+          <div class="tb-deal-card__img">
+            <img src="images/tokyo.jpg" alt="Andaz Tokyo Toranomon Hills city view" loading="lazy" itemprop="image" />
+            <span class="tb-badge tb-badge--top">Top Pick</span>
+          </div>
+          <div class="tb-deal-card__body">
+            <p class="tb-deal-card__dest">Tokyo, Japan</p>
+            <h3 class="tb-deal-card__name" itemprop="name">Andaz Tokyo Toranomon Hills</h3>
+            <p class="tb-deal-card__desc">Sleek rooftop pool with Shinjuku skyline views. Walking distance to Shibuya and Harajuku.</p>
+            <p class="tb-deal-card__rating">★★★★★ 4.7 <span style="color:var(--tb-muted)">(441 reviews)</span></p>
+            <div class="tb-deal-card__pricing">
+              <span class="tb-price-original">$320</span>
+              <span class="tb-price-deal" itemprop="priceRange">$198</span>
+              <span class="tb-price-unit">/night</span>
+            </div>
+            <!-- [AFFILIATE LINK: Replace # with your booking affiliate URL] -->
+            <a href="#" class="tb-btn tb-btn--primary" rel="noopener sponsored" target="_blank">See Today's Deals</a>
+          </div>
+        </article>
+      </div>
+      <p class="tb-deal-card__disclaimer">*Prices shown are per night and may include affiliate commissions. Availability subject to change.</p>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════════════════════
+       SECTION: Destination Guides — Elementor 3-Column Section
+       Each .tb-guide-card maps to an Elementor post/blog widget or column.
+       Replace href with your internal money pages / guide URLs.
+       ═══════════════════════════════════════════════════════════ -->
+  <section id="destinations" class="tb-section tb-guides" aria-labelledby="guides-heading">
+    <div class="tb-container">
+      <div class="tb-section-top">
+        <div class="tb-section-heading" style="margin-bottom:0;">
+          <h2 id="guides-heading">Popular Destination Guides</h2>
+          <p>In-depth guides that actually help you make a decision — not just filler content.</p>
+        </div>
+        <a href="/destinations/" class="tb-view-all">Browse all guides</a>
+      </div>
+      <div class="tb-guides__grid">
+
+        <a href="/destinations/bali/" class="tb-guide-card">
+          <div class="tb-guide-card__img">
+            <img src="images/bali.jpg" alt="Bali rice terraces travel guide" loading="lazy" />
+          </div>
+          <div class="tb-guide-card__body">
+            <p class="tb-guide-card__dest">Bali, Indonesia</p>
+            <h3 class="tb-guide-card__title">The Complete Bali Travel Guide: Where to Stay, Eat, and Save in 2025</h3>
+            <p class="tb-guide-card__teaser">From Ubud's rice terraces to Seminyak's sunset bars — a practical breakdown of Bali's best areas and honest hotel picks for every budget.</p>
+            <div class="tb-guide-card__footer">
+              <span class="tb-guide-card__read-time">12 min read</span>
+              <span class="tb-read-link">Read Guide &rarr;</span>
+            </div>
+          </div>
+        </a>
+
+        <a href="/destinations/paris/" class="tb-guide-card">
+          <div class="tb-guide-card__img">
+            <img src="images/paris.jpg" alt="Paris travel guide aerial view" loading="lazy" />
+          </div>
+          <div class="tb-guide-card__body">
+            <p class="tb-guide-card__dest">Paris, France</p>
+            <h3 class="tb-guide-card__title">Paris Without the Tourist Tax: Hotels and Neighborhoods Locals Actually Use</h3>
+            <p class="tb-guide-card__teaser">Skip the overpriced arrondissements. Here's where to stay near the Seine without paying central-Paris prices, plus the best-value dining near every major sight.</p>
+            <div class="tb-guide-card__footer">
+              <span class="tb-guide-card__read-time">9 min read</span>
+              <span class="tb-read-link">Read Guide &rarr;</span>
+            </div>
+          </div>
+        </a>
+
+        <a href="/destinations/maldives/" class="tb-guide-card">
+          <div class="tb-guide-card__img">
+            <img src="images/maldives.jpg" alt="Maldives overwater bungalow travel guide" loading="lazy" />
+          </div>
+          <div class="tb-guide-card__body">
+            <p class="tb-guide-card__dest">Maldives</p>
+            <h3 class="tb-guide-card__title">Maldives on a Budget: Guesthouses vs Resorts — An Honest Comparison</h3>
+            <p class="tb-guide-card__teaser">You don't need $1,000/night to experience turquoise water. We compared 6 budget-friendly options with luxury resorts to see what you actually get.</p>
+            <div class="tb-guide-card__footer">
+              <span class="tb-guide-card__read-time">14 min read</span>
+              <span class="tb-read-link">Read Guide &rarr;</span>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════════════════════
+       SECTION: Newsletter — Elementor Full-Width Section
+       Connect the form action to your email provider (Mailchimp, ConvertKit, etc.)
+       Replace action="#" with your form endpoint.
+       ═══════════════════════════════════════════════════════════ -->
+  <section id="newsletter" class="tb-section tb-newsletter" aria-labelledby="newsletter-heading">
+    <div class="tb-container">
+      <div class="tb-newsletter__inner">
+        <div class="tb-newsletter__icon" aria-hidden="true">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 7L2 7"/></svg>
+        </div>
+        <p class="tb-newsletter__label">Weekly Deals Newsletter</p>
+        <h2 id="newsletter-heading">Get the Best Deals First.</h2>
+        <p class="tb-newsletter__sub">Every week, we curate the top hotel deals, flight drops, and destination tips so you never miss a good price. Practical, not spammy.</p>
+        <!-- [INTEGRATION: Replace action="#" with your Mailchimp/ConvertKit form action URL] -->
+        <form class="tb-newsletter-form" action="#" method="POST">
+          <input type="email" name="email" placeholder="Your email address" required autocomplete="email" aria-label="Email address" />
+          <button type="submit" class="tb-btn tb-btn--primary">Subscribe</button>
+        </form>
+        <p class="tb-newsletter__note">Join 24,000+ travelers. No spam, ever. Unsubscribe anytime.</p>
+      </div>
+    </div>
+  </section>
+</main>
+
+<!-- ═══════════════════════════════════════════════════════════
+     SECTION: Footer — Elementor Theme Footer Template
+     ═══════════════════════════════════════════════════════════ -->
+<footer class="tb-footer" role="contentinfo">
+  <div class="tb-container">
+    <div class="tb-footer__top">
+      <div>
+        <a href="/" class="tb-footer__logo">
+          <div class="tb-footer__logo-icon">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2.5" stroke-linecap="round"><path d="M5 17H3a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11a2 2 0 0 1 2 2v3m3 9l-3-3m3 3-3 3m3-3H9"/></svg>
+          </div>
+          TravelBuzzy
+        </a>
+        <p class="tb-footer__tagline">Curated travel deals, destination guides, and honest hotel picks — for travelers who do their research.</p>
+      </div>
+      <div class="tb-footer__col">
+        <h4>Explore</h4>
+        <ul>
+          <li><a href="/destinations/">Destinations</a></li>
+          <li><a href="/hotels/">Hotels</a></li>
+          <li><a href="/deals/">Deals</a></li>
+          <li><a href="/tips/">Travel Tips</a></li>
+        </ul>
+      </div>
+      <div class="tb-footer__col">
+        <h4>Top Regions</h4>
+        <ul>
+          <li><a href="/destinations/southeast-asia/">Southeast Asia</a></li>
+          <li><a href="/destinations/europe/">Europe</a></li>
+          <li><a href="/destinations/americas/">Americas</a></li>
+          <li><a href="/destinations/mea/">Middle East &amp; Africa</a></li>
+        </ul>
+      </div>
+      <div class="tb-footer__col">
+        <h4>Company</h4>
+        <ul>
+          <li><a href="/about/">About TravelBuzzy</a></li>
+          <li><a href="/contact/">Contact Us</a></li>
+          <li><a href="/affiliate-disclosure/" id="disclosure">Affiliate Disclosure</a></li>
+          <li><a href="/privacy-policy/">Privacy Policy</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="tb-footer__bottom">
+      <p class="tb-footer__copy">&copy; <script>document.write(new Date().getFullYear())</script> TravelBuzzy. All rights reserved.</p>
+      <p class="tb-footer__disclaimer">
+        Affiliate Disclosure: TravelBuzzy may earn a commission when you book through links on this site, at no extra cost to you. We only recommend hotels and destinations we genuinely believe in.
+      </p>
+    </div>
+  </div>
+</footer>
+
+<script src="scripts.js" defer></script>
+</body>
+</html>

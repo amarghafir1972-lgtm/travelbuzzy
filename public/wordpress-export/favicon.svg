@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+  <rect width="32" height="32" rx="7" fill="#FF6F7D"/>
+  <!-- Body -->
+  <circle cx="16" cy="9" r="3.5" fill="#0F4C81"/>
+  <path d="M10 22 Q10 15 16 15 Q22 15 22 22" fill="#0F4C81"/>
+  <!-- Luggage -->
+  <rect x="19" y="17" width="6" height="7" rx="1" fill="#FBFAF7" stroke="#0F4C81" stroke-width="0.8"/>
+  <rect x="20.5" y="15.5" width="3" height="2" rx="0.5" fill="none" stroke="#0F4C81" stroke-width="0.8"/>
+  <line x1="22" y1="17" x2="22" y2="24" stroke="#0F4C81" stroke-width="0.8"/>
+  <!-- Arm reaching luggage -->
+  <path d="M19 19 Q17 19 18.5 18" stroke="#0F4C81" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+  <!-- Legs -->
+  <path d="M14 22 L13 28 M18 22 L19 28" stroke="#0F4C81" stroke-width="2" stroke-linecap="round"/>
+</svg>
